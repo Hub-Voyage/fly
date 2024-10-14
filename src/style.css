@@ -1,12 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
 :root {
-  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-family: "Hind", system-ui,  Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
+  color: var(--color-text-base);
+  background-color: var(--color-commom-light);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-primary-dark: rgb(51, 80, 148);
+  --color-primary-light: rgb(35, 127, 208);
+  --color-secondary: rgb(248, 219, 28);
+  --color-commom-light: rgb(255, 255, 255);
+  --color-commom-light-opacity: rgba(255, 255, 255, .7);
+  --color-text-base: rgb(51, 51, 51);
+  --color-text-base-opacity: rgba(51, 51, 51, .3);
+  
+  --space-xsmall: 4px;
+  --space-small: 8px;
+  --space-base: 16px;
+  --space-medium: 20px;
+  --space-large: 24px;
+  --space-xlarge: 32px;
+  --space-xxlarge: 40px;
+  --space-xxxlarge: 48px;
+
+  --size-xxsmall: 4px;
+  --size-xsmall: 8px;
+  --size-small: 12px;
+  --size-base: 16px;
+  --size-medium: 20px;
+  --size-large: 24px;
+  --size-xlarge: 32px;
+  --size-xxlarge: 36px;
+  --size-xxxlarge: 40px;
+
+  --radius-xsmall: 2px;
+  --radius-small: 4px;
+  --radius-base: 6px;
+  --radius-medium: 8px;
+  --radius-large: 10px;
+  --radius-xlarge: 12px;
+
+  --shadow-base: 0px 0px 8px rgba(80, 80, 80, 0.1);
+
 }
 
 * {
@@ -18,4 +60,9 @@
 body {
   min-width: 320px;
   min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
 }

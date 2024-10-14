@@ -1,6 +1,5 @@
 <script setup lang="ts">
   import { ref } from 'vue'
-
   const subtitle = ref<string>('Frontend Application for selling airline tickets')
 </script>
 
