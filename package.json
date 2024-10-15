@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@iconify/vue": "^4.1.2",
+    "vite-svg-loader": "^5.1.0",
     "vue": "^3.5.10"
   },
   "devDependencies": {
